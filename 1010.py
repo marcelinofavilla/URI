@@ -1,0 +1,11 @@
+C1, Q1, V1 = input().split()
+C1 = int(C1)
+Q1 = int(Q1)
+V1 = float(V1)
+
+C2, Q2, V2 = input().split()
+C2 = int(C2)
+Q2 = int(Q2)
+V2 = float(V2)
+TOTAL = (V1*Q1) + (V2*Q2)
+print("VALOR A PAGAR: R$ {:.2f}".format(round(TOTAL, 2)))
